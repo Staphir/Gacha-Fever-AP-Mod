@@ -1,0 +1,789 @@
+{
+  "locations": [
+    {
+      "name": "Victory Akimbo",
+      "id": 50000,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Maggi",
+      "id": 50001,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Happi",
+      "id": 50002,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Steaven",
+      "id": 50003,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Abaster",
+      "id": 50004,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Moon",
+      "id": 50005,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Magica Girl",
+      "id": 50006,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Ross",
+      "id": 50007,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Dj Luxxi",
+      "id": 50008,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Fox",
+      "id": 50009,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Slime Cavalery",
+      "id": 50010,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Drak Boxe",
+      "id": 50011,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Ev IE",
+      "id": 50012,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Crafter",
+      "id": 50013,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Mia",
+      "id": 50014,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Gundam",
+      "id": 50015,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Vampire",
+      "id": 50016,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Madline",
+      "id": 50017,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Kyle",
+      "id": 50018,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Ducktor",
+      "id": 50019,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Kaosu",
+      "id": 50020,
+      "category": "victory"
+    },
+    {
+      "name": "Victory Jeff",
+      "id": 50021,
+      "category": "victory"
+    },
+    {
+      "name": "Unlock Akimbo",
+      "id": 50100,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Maggi",
+      "id": 50101,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Happi",
+      "id": 50102,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Steaven",
+      "id": 50103,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Abaster",
+      "id": 50104,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Moon",
+      "id": 50105,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Magica Girl",
+      "id": 50106,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Ross",
+      "id": 50107,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Dj Luxxi",
+      "id": 50108,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Fox",
+      "id": 50109,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Slime Cavalery",
+      "id": 50110,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Drak Boxe",
+      "id": 50111,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Ev IE",
+      "id": 50112,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Crafter",
+      "id": 50113,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Mia",
+      "id": 50114,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Gundam",
+      "id": 50115,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Vampire",
+      "id": 50116,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Madline",
+      "id": 50117,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Kyle",
+      "id": 50118,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Ducktor",
+      "id": 50119,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Kaosu",
+      "id": 50120,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Jeff",
+      "id": 50121,
+      "category": "gacha"
+    },
+    {
+      "name": "Unlock Gun",
+      "id": 50200,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Machine Gun",
+      "id": 50201,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Boba Cannon",
+      "id": 50202,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Crescent Moon",
+      "id": 50203,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Icecubeparty",
+      "id": 50204,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Friday Night",
+      "id": 50205,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Oni Hilator",
+      "id": 50206,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Spikyblow",
+      "id": 50207,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Zipouzip",
+      "id": 50208,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Ethereal Katana",
+      "id": 50209,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Kings Belt",
+      "id": 50210,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Megazap",
+      "id": 50211,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Foxlantern",
+      "id": 50212,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Buddyspawn",
+      "id": 50213,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Slimy Foam",
+      "id": 50214,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Boxing Gloves",
+      "id": 50215,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Nuke",
+      "id": 50216,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Cutie Turrets",
+      "id": 50217,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Sacslime",
+      "id": 50218,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Pixelgun",
+      "id": 50219,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Pompom",
+      "id": 50220,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Seringe",
+      "id": 50221,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Lantern",
+      "id": 50222,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Tronconneuse",
+      "id": 50223,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Solar Cream",
+      "id": 50224,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Axe Devorer",
+      "id": 50225,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Shuriken",
+      "id": 50226,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Lazer Zap",
+      "id": 50227,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Flesh Boom",
+      "id": 50228,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Bat Hole",
+      "id": 50229,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Lance Flamme",
+      "id": 50230,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Guitar",
+      "id": 50231,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Precision Rifle",
+      "id": 50232,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock VHS",
+      "id": 50233,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Canon Pop Corn",
+      "id": 50234,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Dash",
+      "id": 50235,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Slice Pink",
+      "id": 50236,
+      "category": "weapon"
+    },
+    {
+      "name": "Unlock Spicy Udons",
+      "id": 50300,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Squishy Mochi",
+      "id": 50301,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Lucky Hanafuda",
+      "id": 50302,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Dango",
+      "id": 50303,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Pinknail",
+      "id": 50304,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Reinforced Backpack",
+      "id": 50305,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Gyoza",
+      "id": 50306,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Ramune",
+      "id": 50307,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Music Sheets",
+      "id": 50308,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Unfinished Loveletter",
+      "id": 50309,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Stinky Bomb",
+      "id": 50310,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Tears of the Enemies",
+      "id": 50311,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Vitamin Bar",
+      "id": 50312,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Bubbletea",
+      "id": 50313,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Favorite CD",
+      "id": 50314,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Torned Manga",
+      "id": 50315,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Jelly Slime",
+      "id": 50316,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Saltwater Ice Cream",
+      "id": 50317,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Sharpened Pencil",
+      "id": 50318,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Packed Bento",
+      "id": 50319,
+      "category": "object"
+    },
+    {
+      "name": "Unlock A+ Grade",
+      "id": 50320,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Student’s Sandwich",
+      "id": 50321,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Flashy Hairpin",
+      "id": 50322,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Personal Diary",
+      "id": 50323,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Yukata",
+      "id": 50324,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Cute Bow",
+      "id": 50325,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Fox Mask",
+      "id": 50326,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Heart Shaped Waffle",
+      "id": 50327,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Portable Fun",
+      "id": 50328,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Taiyaki",
+      "id": 50329,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Voodoo Doll",
+      "id": 50330,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Watermelon",
+      "id": 50331,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Piled Ice",
+      "id": 50332,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Hot Dog",
+      "id": 50333,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Purikura",
+      "id": 50334,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Sunglasses",
+      "id": 50335,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Akimbos Headset",
+      "id": 50336,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Head Doll",
+      "id": 50337,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Donuts",
+      "id": 50338,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Blood Pack",
+      "id": 50339,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Candy",
+      "id": 50340,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Basket Ball",
+      "id": 50341,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Cursed Dice",
+      "id": 50342,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Fish Blue",
+      "id": 50343,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Octopus",
+      "id": 50344,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Bambou",
+      "id": 50345,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Eye Curse",
+      "id": 50346,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Dice",
+      "id": 50347,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Neko",
+      "id": 50348,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Radio",
+      "id": 50349,
+      "category": "object"
+    },
+    {
+      "name": "Unlock The Toxic Can",
+      "id": 50350,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden S Grade",
+      "id": 50351,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Teddy Bear",
+      "id": 50352,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Tissu",
+      "id": 50353,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Golden Milk",
+      "id": 50354,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Insta Camera",
+      "id": 50355,
+      "category": "object"
+    },
+    {
+      "name": "Unlock The Void Messengers Key",
+      "id": 50356,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Lucky Collectors Clover",
+      "id": 50357,
+      "category": "object"
+    },
+    {
+      "name": "Unlock The Snake Idol",
+      "id": 50358,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Scroll Of Forbidden Knowledge",
+      "id": 50359,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Muscular Mage Cake",
+      "id": 50360,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Origami Of Dad Bear",
+      "id": 50361,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Calling A Friend",
+      "id": 50362,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Enchanted Piggy Bank",
+      "id": 50363,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Taiko",
+      "id": 50364,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Rabbit Lollipop",
+      "id": 50365,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Bat Gold",
+      "id": 50366,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Milkshake",
+      "id": 50367,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Pufferfish",
+      "id": 50368,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Pince",
+      "id": 50369,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Crown",
+      "id": 50370,
+      "category": "object"
+    },
+    {
+      "name": "Unlock Key Kistune",
+      "id": 50371,
+      "category": "object"
+    },
+    {
+      "name": "Unlock No Craft By Ban",
+      "id": 50372,
+      "category": "object"
+    },
+    {
+      "name": "Pack Gold Coin",
+      "id": 50400,
+      "category": "filler"
+    },
+    {
+      "name": "Pack Purple Coin",
+      "id": 50401,
+      "category": "filler"
+    },
+    {
+      "name": "Menu",
+      "id": 50500,
+      "category": "menu"
+    }
+  ]
+}

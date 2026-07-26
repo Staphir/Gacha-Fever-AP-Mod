@@ -1,0 +1,674 @@
+{
+  "items": [
+    {
+      "name": "Akimbo",
+      "id": 50000,
+      "category": "gacha"
+    },
+    {
+      "name": "Maggi",
+      "id": 50001,
+      "category": "gacha"
+    },
+    {
+      "name": "Happi",
+      "id": 50002,
+      "category": "gacha"
+    },
+    {
+      "name": "Steaven",
+      "id": 50003,
+      "category": "gacha"
+    },
+    {
+      "name": "Abaster",
+      "id": 50004,
+      "category": "gacha"
+    },
+    {
+      "name": "Moon",
+      "id": 50005,
+      "category": "gacha"
+    },
+    {
+      "name": "Magica Girl",
+      "id": 50006,
+      "category": "gacha"
+    },
+    {
+      "name": "Ross",
+      "id": 50007,
+      "category": "gacha"
+    },
+    {
+      "name": "Dj Luxxi",
+      "id": 50008,
+      "category": "gacha"
+    },
+    {
+      "name": "Fox",
+      "id": 50009,
+      "category": "gacha"
+    },
+    {
+      "name": "Slime Cavalery",
+      "id": 50010,
+      "category": "gacha"
+    },
+    {
+      "name": "Drak Boxe",
+      "id": 50011,
+      "category": "gacha"
+    },
+    {
+      "name": "Ev IE",
+      "id": 50012,
+      "category": "gacha"
+    },
+    {
+      "name": "Crafter",
+      "id": 50013,
+      "category": "gacha"
+    },
+    {
+      "name": "Mia",
+      "id": 50014,
+      "category": "gacha"
+    },
+    {
+      "name": "Gundam",
+      "id": 50015,
+      "category": "gacha"
+    },
+    {
+      "name": "Vampire",
+      "id": 50016,
+      "category": "gacha"
+    },
+    {
+      "name": "Madline",
+      "id": 50017,
+      "category": "gacha"
+    },
+    {
+      "name": "Kyle",
+      "id": 50018,
+      "category": "gacha"
+    },
+    {
+      "name": "Ducktor",
+      "id": 50019,
+      "category": "gacha"
+    },
+    {
+      "name": "Kaosu",
+      "id": 50020,
+      "category": "gacha"
+    },
+    {
+      "name": "Jeff",
+      "id": 50021,
+      "category": "gacha"
+    },
+    {
+      "name": "Gun",
+      "id": 50100,
+      "category": "weapon"
+    },
+    {
+      "name": "Machine Gun",
+      "id": 50101,
+      "category": "weapon"
+    },
+    {
+      "name": "Boba Cannon",
+      "id": 50102,
+      "category": "weapon"
+    },
+    {
+      "name": "Crescent Moon",
+      "id": 50103,
+      "category": "weapon"
+    },
+    {
+      "name": "Icecubeparty",
+      "id": 50104,
+      "category": "weapon"
+    },
+    {
+      "name": "Friday Night",
+      "id": 50105,
+      "category": "weapon"
+    },
+    {
+      "name": "Oni Hilator",
+      "id": 50106,
+      "category": "weapon"
+    },
+    {
+      "name": "Spikyblow",
+      "id": 50107,
+      "category": "weapon"
+    },
+    {
+      "name": "Zipouzip",
+      "id": 50108,
+      "category": "weapon"
+    },
+    {
+      "name": "Ethereal Katana",
+      "id": 50109,
+      "category": "weapon"
+    },
+    {
+      "name": "Kings Belt",
+      "id": 50110,
+      "category": "weapon"
+    },
+    {
+      "name": "Megazap",
+      "id": 50111,
+      "category": "weapon"
+    },
+    {
+      "name": "Foxlantern",
+      "id": 50112,
+      "category": "weapon"
+    },
+    {
+      "name": "Buddyspawn",
+      "id": 50113,
+      "category": "weapon"
+    },
+    {
+      "name": "Slimy Foam",
+      "id": 50114,
+      "category": "weapon"
+    },
+    {
+      "name": "Boxing Gloves",
+      "id": 50115,
+      "category": "weapon"
+    },
+    {
+      "name": "Nuke",
+      "id": 50116,
+      "category": "weapon"
+    },
+    {
+      "name": "Cutie Turrets",
+      "id": 50117,
+      "category": "weapon"
+    },
+    {
+      "name": "Sacslime",
+      "id": 50118,
+      "category": "weapon"
+    },
+    {
+      "name": "Pixelgun",
+      "id": 50119,
+      "category": "weapon"
+    },
+    {
+      "name": "Pompom",
+      "id": 50120,
+      "category": "weapon"
+    },
+    {
+      "name": "Seringe",
+      "id": 50121,
+      "category": "weapon"
+    },
+    {
+      "name": "Lantern",
+      "id": 50122,
+      "category": "weapon"
+    },
+    {
+      "name": "Tronconneuse",
+      "id": 50123,
+      "category": "weapon"
+    },
+    {
+      "name": "Solar Cream",
+      "id": 50124,
+      "category": "weapon"
+    },
+    {
+      "name": "Axe Devorer",
+      "id": 50125,
+      "category": "weapon"
+    },
+    {
+      "name": "Shuriken",
+      "id": 50126,
+      "category": "weapon"
+    },
+    {
+      "name": "Lazer Zap",
+      "id": 50127,
+      "category": "weapon"
+    },
+    {
+      "name": "Flesh Boom",
+      "id": 50128,
+      "category": "weapon"
+    },
+    {
+      "name": "Bat Hole",
+      "id": 50129,
+      "category": "weapon"
+    },
+    {
+      "name": "Lance Flamme",
+      "id": 50130,
+      "category": "weapon"
+    },
+    {
+      "name": "Guitar",
+      "id": 50131,
+      "category": "weapon"
+    },
+    {
+      "name": "Precision Rifle",
+      "id": 50132,
+      "category": "weapon"
+    },
+    {
+      "name": "VHS",
+      "id": 50133,
+      "category": "weapon"
+    },
+    {
+      "name": "Canon Pop Corn",
+      "id": 50134,
+      "category": "weapon"
+    },
+    {
+      "name": "Dash",
+      "id": 50135,
+      "category": "weapon"
+    },
+    {
+      "name": "Slice Pink",
+      "id": 50136,
+      "category": "weapon"
+    },
+    {
+      "name": "Spicy Udons",
+      "id": 50200,
+      "category": "object"
+    },
+    {
+      "name": "Squishy Mochi",
+      "id": 50201,
+      "category": "object"
+    },
+    {
+      "name": "Lucky Hanafuda",
+      "id": 50202,
+      "category": "object"
+    },
+    {
+      "name": "Dango",
+      "id": 50203,
+      "category": "object"
+    },
+    {
+      "name": "Pinknail",
+      "id": 50204,
+      "category": "object"
+    },
+    {
+      "name": "Reinforced Backpack",
+      "id": 50205,
+      "category": "object"
+    },
+    {
+      "name": "Gyoza",
+      "id": 50206,
+      "category": "object"
+    },
+    {
+      "name": "Ramune",
+      "id": 50207,
+      "category": "object"
+    },
+    {
+      "name": "Music Sheets",
+      "id": 50208,
+      "category": "object"
+    },
+    {
+      "name": "Unfinished Loveletter",
+      "id": 50209,
+      "category": "object"
+    },
+    {
+      "name": "Stinky Bomb",
+      "id": 50210,
+      "category": "object"
+    },
+    {
+      "name": "Tears of the Enemies",
+      "id": 50211,
+      "category": "object"
+    },
+    {
+      "name": "Vitamin Bar",
+      "id": 50212,
+      "category": "object"
+    },
+    {
+      "name": "Bubbletea",
+      "id": 50213,
+      "category": "object"
+    },
+    {
+      "name": "Favorite CD",
+      "id": 50214,
+      "category": "object"
+    },
+    {
+      "name": "Torned Manga",
+      "id": 50215,
+      "category": "object"
+    },
+    {
+      "name": "Jelly Slime",
+      "id": 50216,
+      "category": "object"
+    },
+    {
+      "name": "Saltwater Ice Cream",
+      "id": 50217,
+      "category": "object"
+    },
+    {
+      "name": "Sharpened Pencil",
+      "id": 50218,
+      "category": "object"
+    },
+    {
+      "name": "Packed Bento",
+      "id": 50219,
+      "category": "object"
+    },
+    {
+      "name": "A+ Grade",
+      "id": 50220,
+      "category": "object"
+    },
+    {
+      "name": "Student’s Sandwich",
+      "id": 50221,
+      "category": "object"
+    },
+    {
+      "name": "Flashy Hairpin",
+      "id": 50222,
+      "category": "object"
+    },
+    {
+      "name": "Personal Diary",
+      "id": 50223,
+      "category": "object"
+    },
+    {
+      "name": "Yukata",
+      "id": 50224,
+      "category": "object"
+    },
+    {
+      "name": "Cute Bow",
+      "id": 50225,
+      "category": "object"
+    },
+    {
+      "name": "Fox Mask",
+      "id": 50226,
+      "category": "object"
+    },
+    {
+      "name": "Heart Shaped Waffle",
+      "id": 50227,
+      "category": "object"
+    },
+    {
+      "name": "Portable Fun",
+      "id": 50228,
+      "category": "object"
+    },
+    {
+      "name": "Taiyaki",
+      "id": 50229,
+      "category": "object"
+    },
+    {
+      "name": "Voodoo Doll",
+      "id": 50230,
+      "category": "object"
+    },
+    {
+      "name": "Watermelon",
+      "id": 50231,
+      "category": "object"
+    },
+    {
+      "name": "Piled Ice",
+      "id": 50232,
+      "category": "object"
+    },
+    {
+      "name": "Hot Dog",
+      "id": 50233,
+      "category": "object"
+    },
+    {
+      "name": "Purikura",
+      "id": 50234,
+      "category": "object"
+    },
+    {
+      "name": "Sunglasses",
+      "id": 50235,
+      "category": "object"
+    },
+    {
+      "name": "Akimbos Headset",
+      "id": 50236,
+      "category": "object"
+    },
+    {
+      "name": "Head Doll",
+      "id": 50237,
+      "category": "object"
+    },
+    {
+      "name": "Donuts",
+      "id": 50238,
+      "category": "object"
+    },
+    {
+      "name": "Blood Pack",
+      "id": 50239,
+      "category": "object"
+    },
+    {
+      "name": "Candy",
+      "id": 50240,
+      "category": "object"
+    },
+    {
+      "name": "Basket Ball",
+      "id": 50241,
+      "category": "object"
+    },
+    {
+      "name": "Cursed Dice",
+      "id": 50242,
+      "category": "object"
+    },
+    {
+      "name": "Fish Blue",
+      "id": 50243,
+      "category": "object"
+    },
+    {
+      "name": "Octopus",
+      "id": 50244,
+      "category": "object"
+    },
+    {
+      "name": "Bambou",
+      "id": 50245,
+      "category": "object"
+    },
+    {
+      "name": "Eye Curse",
+      "id": 50246,
+      "category": "object"
+    },
+    {
+      "name": "Golden Dice",
+      "id": 50247,
+      "category": "object"
+    },
+    {
+      "name": "Golden Neko",
+      "id": 50248,
+      "category": "object"
+    },
+    {
+      "name": "Golden Radio",
+      "id": 50249,
+      "category": "object"
+    },
+    {
+      "name": "The Toxic Can",
+      "id": 50250,
+      "category": "object"
+    },
+    {
+      "name": "Golden S Grade",
+      "id": 50251,
+      "category": "object"
+    },
+    {
+      "name": "Golden Teddy Bear",
+      "id": 50252,
+      "category": "object"
+    },
+    {
+      "name": "Golden Tissu",
+      "id": 50253,
+      "category": "object"
+    },
+    {
+      "name": "Golden Milk",
+      "id": 50254,
+      "category": "object"
+    },
+    {
+      "name": "Insta Camera",
+      "id": 50255,
+      "category": "object"
+    },
+    {
+      "name": "The Void Messengers Key",
+      "id": 50256,
+      "category": "object"
+    },
+    {
+      "name": "Lucky Collectors Clover",
+      "id": 50257,
+      "category": "object"
+    },
+    {
+      "name": "The Snake Idol",
+      "id": 50258,
+      "category": "object"
+    },
+    {
+      "name": "Scroll Of Forbidden Knowledge",
+      "id": 50259,
+      "category": "object"
+    },
+    {
+      "name": "Muscular Mage Cake",
+      "id": 50260,
+      "category": "object"
+    },
+    {
+      "name": "Origami Of Dad Bear",
+      "id": 50261,
+      "category": "object"
+    },
+    {
+      "name": "Calling A Friend",
+      "id": 50262,
+      "category": "object"
+    },
+    {
+      "name": "Enchanted Piggy Bank",
+      "id": 50263,
+      "category": "object"
+    },
+    {
+      "name": "Taiko",
+      "id": 50264,
+      "category": "object"
+    },
+    {
+      "name": "Rabbit Lollipop",
+      "id": 50265,
+      "category": "object"
+    },
+    {
+      "name": "Bat Gold",
+      "id": 50266,
+      "category": "object"
+    },
+    {
+      "name": "Milkshake",
+      "id": 50267,
+      "category": "object"
+    },
+    {
+      "name": "Pufferfish",
+      "id": 50268,
+      "category": "object"
+    },
+    {
+      "name": "Pince",
+      "id": 50269,
+      "category": "object"
+    },
+    {
+      "name": "Crown",
+      "id": 50270,
+      "category": "object"
+    },
+    {
+      "name": "Key Kistune",
+      "id": 50271,
+      "category": "object"
+    },
+    {
+      "name": "No Craft By Ban",
+      "id": 50272,
+      "category": "object"
+    },
+    {
+      "name": "Gold Coin",
+      "id": 50300,
+      "category": "filler"
+    },
+    {
+      "name": "Purple Coin",
+      "id": 50301,
+      "category": "filler"
+    }
+  ]
+}

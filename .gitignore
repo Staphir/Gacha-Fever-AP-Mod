@@ -1,0 +1,59 @@
+*.iml
+out
+gen
+
+/obj/
+# Ignore build output
+bin/
+obj/
+
+# Ignore temporary files
+*.suo
+*.user
+
+# Ignore NuGet packages
+/packages/
+
+# Ignore Visual Studio solution user-specific settings
+*.sln.docstates
+
+# Ignore Rider IDE user-specific settings
+.idea/
+.vscode/
+riderModule.iml
+
+# Ignore test results
+TestResults/
+xunit.*.xml
+
+# Ignore output of dotnet publish
+publish/
+
+# Ignore .NET Core specific files
+project.assets.json
+*.csproj.user
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+*.exe
+*.dll
+
+# Ignore temporary build files
+*.tmp
+
+# Ignore Visual Studio 2019 project-specific files
+*.vssscc
+
+# Ignore Visual Studio 2017 project-specific files
+*.vbproj.user
+
+# Ignore ReSharper configuration files
+*.resharper-user
+*.resharper-project.xml
+*.resharper-sln.xml
+/_ReSharper.Caches/
+
+# Ignore NCrunch configuration files
+.ncrunch/

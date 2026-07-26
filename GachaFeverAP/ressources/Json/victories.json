@@ -1,0 +1,114 @@
+{
+  "victory_items": [
+    {
+      "name": "Akimbo",
+      "id": 50000,
+      "category": "goal"
+    },
+    {
+      "name": "Maggi",
+      "id": 50001,
+      "category": "goal"
+    },
+    {
+      "name": "Happi",
+      "id": 50002,
+      "category": "goal"
+    },
+    {
+      "name": "Steaven",
+      "id": 50003,
+      "category": "goal"
+    },
+    {
+      "name": "Abaster",
+      "id": 50004,
+      "category": "goal"
+    },
+    {
+      "name": "Moon",
+      "id": 50005,
+      "category": "goal"
+    },
+    {
+      "name": "Magica Girl",
+      "id": 50006,
+      "category": "goal"
+    },
+    {
+      "name": "Ross",
+      "id": 50007,
+      "category": "goal"
+    },
+    {
+      "name": "Dj Luxxi",
+      "id": 50008,
+      "category": "goal"
+    },
+    {
+      "name": "Fox",
+      "id": 50009,
+      "category": "goal"
+    },
+    {
+      "name": "Slime Cavalery",
+      "id": 50010,
+      "category": "goal"
+    },
+    {
+      "name": "Drak Boxe",
+      "id": 50011,
+      "category": "goal"
+    },
+    {
+      "name": "Ev IE",
+      "id": 50012,
+      "category": "goal"
+    },
+    {
+      "name": "Crafter",
+      "id": 50013,
+      "category": "goal"
+    },
+    {
+      "name": "Mia",
+      "id": 50014,
+      "category": "goal"
+    },
+    {
+      "name": "Gundam",
+      "id": 50015,
+      "category": "goal"
+    },
+    {
+      "name": "Vampire",
+      "id": 50016,
+      "category": "goal"
+    },
+    {
+      "name": "Madline",
+      "id": 50017,
+      "category": "goal"
+    },
+    {
+      "name": "Kyle",
+      "id": 50018,
+      "category": "goal"
+    },
+    {
+      "name": "Ducktor",
+      "id": 50019,
+      "category": "goal"
+    },
+    {
+      "name": "Kaosu",
+      "id": 50020,
+      "category": "goal"
+    },
+    {
+      "name": "Jeff",
+      "id": 50021,
+      "category": "goal"
+    }
+  ]
+}
