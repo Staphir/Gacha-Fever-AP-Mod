@@ -57,3 +57,5 @@ project.assets.json
 
 # Ignore NCrunch configuration files
 .ncrunch/
+
+/GachaFeverAP/lib

@@ -3,7 +3,7 @@ using Newtonsoft.Json.Linq;
 
 namespace GachaFeverAP.Utils;
 
-public class DataSaveIO
+public static class DataSaveIO
 {
     public static List<int> GetUnlockGachas(string json)
     {

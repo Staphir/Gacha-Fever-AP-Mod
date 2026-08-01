@@ -64,7 +64,17 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>
+                lib/Assembly-CSharp.dll
+            </HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
         <Folder Include="GachaFeverAPMod\"/>
+        <Folder Include="lib\"/>
         <Folder Include="ressources\Json\"/>
         <Folder Include="src\Mapping\"/>
         <Folder Include="src\Patches\"/>

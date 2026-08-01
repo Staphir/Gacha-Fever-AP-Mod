@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using GachaFeverAP.Archipelago;
+using GachaFeverAP.Patches;
 
 namespace GachaFeverAP;
 
@@ -15,5 +16,6 @@ public class GachaFeverMod : BaseUnityPlugin
         // Plugin startup logic
         Log = Logger;
         LoginGUI.Awake();
+        LoadPatch.Awake();
     }
 }
