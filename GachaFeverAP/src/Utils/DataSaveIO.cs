@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace GachaFeverAP.Utils;
 
@@ -36,5 +37,30 @@ public static class DataSaveIO
                 indices.Add(i + baseId);
 
         return indices;
+    }
+
+    public static void AddUnlockGacha(string json, long gachaId)
+    {
+        AddUnlockItem(json, Constants.DataListName.Gacha, gachaId, (int)Constants.BaseId.Gacha);
+    }
+    public static void AddUnlockWeapon(string json, long weaponId)
+    {
+        AddUnlockItem(json, Constants.DataListName.Weapon, weaponId, (int)Constants.BaseId.Weapon);
+    }
+    public static void AddUnlockObject(string json, long objectId)
+    {
+        AddUnlockItem(json, Constants.DataListName.Object, objectId, (int)Constants.BaseId.Object);
+    }
+
+    private static void AddUnlockItem(string jsonPath, string tabName, long itemId, int itemBaseId)
+    {
+        var jsonObject = JObject.Parse(jsonPath);
+        var tabUnlock = (JArray)jsonObject[tabName];
+
+        var index = itemId - itemBaseId;
+        tabUnlock?[index] = 1;
+
+        var updatedJson = jsonObject.ToString();
+        File.WriteAllText(jsonPath, updatedJson);
     }
 }

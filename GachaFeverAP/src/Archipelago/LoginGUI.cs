@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿using System.Runtime.CompilerServices;
+using BepInEx;
 using GachaFeverAP.Utils;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public static class LoginGUI
     public const string PluginVersion = "0.1.0";
     
     public const string ModDisplayInfo = $"{PluginName} v{PluginVersion}";
-    private const string APDisplayInfo = $"Archipelago v{SessionManager.APVersion}";
+    private static string APDisplayInfo => $"Archipelago v{SessionManager.APVersion}";
     public static SessionManager SessionManager;
     
     public static void Awake()

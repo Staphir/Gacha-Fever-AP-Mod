@@ -1,31 +1,39 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using System.Reflection.Emit;
+using GachaFeverAP.Utils;
 using HarmonyLib;
+using UnityEngine;
 
 namespace GachaFeverAP.Patches;
 
+[HarmonyPatch]
 public static class LoadPatch
 {
-    // TODO patch OnLoad() with new data.json and data.txt path
     public static void Awake()
     {
         Harmony.CreateAndPatchAll(typeof(LoadPatch));
     }
 
     [HarmonyPatch(typeof(Sc_SaveData), "OnLoad")]
-    private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+    [HarmonyPrefix]
+    private static bool OnLoad(Sc_SaveData __instance)
     {
-        var enumerator = instructions.GetEnumerator();
-        while (enumerator.MoveNext())
+        if (!File.Exists(Constants.ModDataJsonPath))
         {
-            var instruction = enumerator.Current;
-            if (instruction.opcode == OpCodes.Ldstr && instruction.operand.ToString() == "LOAD depuis data.json : ")
-            {
-                yield return new CodeInstruction(OpCodes.Ldstr, "OUI LOAD depuis custom_data.json : ");
-                continue;
-            }
-
-            yield return instruction;
+            CreateNewDataJsonFile();
         }
+        
+        var save = JsonUtility.FromJson<SaveDataStruct>(File.ReadAllText(Constants.ModDataJsonPath));
+        MethodInfo applySaveData = AccessTools.Method(typeof(Sc_SaveData), "ApplySaveData");
+        applySaveData.Invoke(__instance, [save]);
+
+        return false;
+    }
+    private static void CreateNewDataJsonFile()
+    {
+        Directory.CreateDirectory(Constants.ModDataDirectory);
+        File.Copy(Constants.OriginalDataJsonPath, Constants.ModDataJsonPath);
     }
 }

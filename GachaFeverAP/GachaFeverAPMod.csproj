@@ -7,8 +7,8 @@
         <Version>0.1.0</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
-        <!-- you may need this for getting the multiclient dll to output for .net 6 and netstandard 2.0 -->
-        <!--        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>-->
+        <!-- Copy NuGet package assemblies to the output folder so BepInEx can load dependent DLLs at runtime -->
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <RestoreAdditionalProjectSources>
