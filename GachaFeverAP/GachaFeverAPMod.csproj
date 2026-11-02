@@ -56,7 +56,6 @@
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
         <PackageReference Include="HarmonyX" Version="2.16.1"/>
-        <PackageReference Include="UnityEngine.Modules" Version="6000.6.0-alpha.5" IncludeAssets="compile"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
@@ -64,9 +63,52 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Reference Include="UnityEngine">
+            <HintPath>
+                \lib\UnityEngine.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>
+                \lib\UnityEngine.CoreModule.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="UnityEngine.IMGUIModule">
+            <HintPath>
+                \lib\UnityEngine.IMGUIModule.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>
+                \lib\UnityEngine.UI.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="UnityEngine.TextRenderingModule">
+            <HintPath>
+                \lib\UnityEngine.TextRenderingModule.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="UnityEngine.JSONSerializeModule">
+            <HintPath>
+                \lib\UnityEngine.JSONSerializeModule.dll
+            </HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
         <Reference Include="Assembly-CSharp">
             <HintPath>
-                lib/Assembly-CSharp.dll
+                \lib\Assembly-CSharp.dll
             </HintPath>
             <Private>False</Private>
         </Reference>
@@ -74,7 +116,7 @@
 
     <ItemGroup>
         <Folder Include="GachaFeverAPMod\"/>
-        <Folder Include="lib\"/>
+        <Folder Include="\lib\"/>
         <Folder Include="ressources\Json\"/>
         <Folder Include="src\Mapping\"/>
         <Folder Include="src\Patches\"/>

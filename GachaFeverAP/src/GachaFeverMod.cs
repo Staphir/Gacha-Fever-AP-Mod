@@ -4,6 +4,7 @@ using GachaFeverAP.Archipelago;
 using GachaFeverAP.Patches;
 using GachaFeverAP.Utils;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace GachaFeverAP;
 
@@ -14,20 +15,25 @@ public class GachaFeverMod : BaseUnityPlugin
     private const string PluginVersion = "0.1.0";
 
     private const string ModDisplayInfo = $"{PluginName} v{PluginVersion}";
-    public static ManualLogSource Log;
-    public static SessionManager SessionManager;
     private const string APDisplayInfo = $"Archipelago v{SessionManager.APVersion}";
+    public static ManualLogSource Log;
+    public static SessionManager sessionManager;
 
     private void Awake()
     {
         // Plugin startup logic
         Log = Logger;
-        // LoginGUI.Awake();
+        sessionManager = new SessionManager();
         LoadPatch.Awake();
+        SceneManager.sceneLoaded += OnSceneLoaded;
         ArchipelagoConsole.LogMessage($"{ModDisplayInfo} loaded!");
-
     }
-    
+
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
     public void OnGUI()
     {
         // show the mod is currently loaded in the corner
@@ -71,8 +77,15 @@ public class GachaFeverMod : BaseUnityPlugin
             // requires that the player at least puts *something* in the slot name
             if (GUI.Button(new Rect(Screen.width - 316, 130, 100, 20), "Connect") &&
                 !SessionManager.ServerData.SlotName.IsNullOrWhiteSpace())
-                SessionManager.Connect();
+                sessionManager.Connect();
         }
         // this is a good place to create and add a bunch of debug buttons
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name != "Scene_Menu") return;
+        MenuButtons.LockAll();
+        MenuButtons.menuLocked = true;
     }
 }

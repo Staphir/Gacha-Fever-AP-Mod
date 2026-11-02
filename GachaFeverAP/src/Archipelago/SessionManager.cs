@@ -28,8 +28,9 @@ public class SessionManager
     /// <returns></returns>
     public void Connect()
     {
+        GachaFeverMod.Log.LogMessage($"Authenticated: {Authenticated}");
         if (Authenticated || attemptingConnection) return;
-
+        GachaFeverMod.Log.LogMessage("Try create session");
         try
         {
             session = ArchipelagoSessionFactory.CreateSession(ServerData.Uri);
@@ -40,6 +41,8 @@ public class SessionManager
             GachaFeverMod.Log.LogError(e);
         }
 
+        GachaFeverMod.Log.LogMessage("Try connect");
+        ArchipelagoConsole.LogMessage("try connect");
         TryConnect();
     }
 
@@ -99,6 +102,8 @@ public class SessionManager
             outText = $"Successfully connected to {ServerData.Uri} as {ServerData.SlotName}!";
 
             ArchipelagoConsole.LogMessage(outText);
+            MenuButtons.UnlockAll();
+            MenuButtons.menuLocked = false;
             // TODO diff between custom data.json and all Archipelago Items unlocked then OnSave if diff
         }
         else
@@ -126,6 +131,8 @@ public class SessionManager
         session?.Socket.DisconnectAsync();
         session = null;
         Authenticated = false;
+        MenuButtons.LockAll();
+        MenuButtons.menuLocked = true;
     }
 
     public void SendMessage(string message)

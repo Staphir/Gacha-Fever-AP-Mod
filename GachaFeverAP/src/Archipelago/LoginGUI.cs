@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using BepInEx;
+﻿using BepInEx;
 using GachaFeverAP.Utils;
 using UnityEngine;
 
@@ -9,18 +8,18 @@ public static class LoginGUI
 {
     public const string PluginName = "Gacha Fever AP";
     public const string PluginVersion = "0.1.0";
-    
+
     public const string ModDisplayInfo = $"{PluginName} v{PluginVersion}";
     private static string APDisplayInfo => $"Archipelago v{SessionManager.APVersion}";
     public static SessionManager SessionManager;
-    
+
     public static void Awake()
     {
         SessionManager = new SessionManager();
         ArchipelagoConsole.Awake();
         ArchipelagoConsole.LogMessage($"{ModDisplayInfo} loaded!");
     }
-    
+
     public static void OnGUI()
     {
         // show the mod is currently loaded in the corner

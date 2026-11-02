@@ -68,7 +68,7 @@ public static class ArchipelagoConsole
         CommandText = GUI.TextField(CommandTextRect, CommandText);
         if (!CommandText.IsNullOrWhiteSpace() && GUI.Button(SendCommandButton, "Send"))
         {
-            GachaFeverMod.SessionManager.SendMessage(CommandText);
+            GachaFeverMod.sessionManager.SendMessage(CommandText);
             CommandText = "";
         }
     }
